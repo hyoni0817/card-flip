@@ -123,3 +123,16 @@ body {
   font-size: 18px;
   line-height: 1.4;
 }
+
+/* grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto; /* 열 추가 하고 싶으면 auto 추가하기*/
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
